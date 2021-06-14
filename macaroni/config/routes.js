@@ -12,5 +12,7 @@ module.exports.routes = {
 
   'GET /': { action: 'home' },
   'GET /subscription/plan': { action: 'subscription/plan' },
+  'GET /login': { action: 'entrance/view-login' },
+  'POST /entrance/login': { action: 'entrance/login' },
 
 };
