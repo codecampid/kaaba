@@ -10,6 +10,7 @@
 
 module.exports.routes = {
 
+  'GET /': { action: 'home' },
   'GET /subscription/plan': { action: 'subscription/plan' },
 
 };
